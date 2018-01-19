@@ -1,0 +1,286 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+      <title>DinnerJacket</title>
+      <link rel='stylesheet' type='text/css' href='uikit/dist/css/uikit.min.css'>
+      <script src="uikit/dist/js/uikit-icons.min.js"></script>
+      <script src="uikit/dist/js/uikit.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+      <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+      <script src="semantic/dist/semantic.min.js"></script>
+      <script src="uikit/dist/js/uikit-icons.min.js"></script>
+  </head>
+  <body class="uk-dark">
+    <nav class="uk-navbar-container uk-margin" uk-navbar>
+      <div class="uk-navbar-left">
+        <a href="" class="uk-navbar-item uk-logo" uk-icon="icon: star; ratio:2"></a>
+        <ul class="uk-navbar-nav">
+          <li class="uk-animation-toggle">
+              <a href="index.html" class="uk-box-shadow-hover-medium">
+                  <span class="uk-icon uk-margin-small-right" uk-icon="icon: home"></span>
+                  Dashboard
+              </a>
+          </li>
+          <li class="uk-animation-toggle">
+              <a href="timetable.html" class="uk-box-shadow-hover-medium">
+                  <span class="uk-icon uk-margin-small-right" uk-icon="icon: star"></span>
+                  Timetable
+              </a>
+          </li>
+          <li class="uk-animation-toggle">
+              <a href="Notes.html" class="uk-box-shadow-hover-medium">
+                  <span class="uk-icon uk-margin-small-right" uk-icon="icon: file-edit"></span>
+                  Notes
+              </a>
+          </li>
+          <li class="uk-animation-toggle">
+              <a href="Daily Notices.html" class="uk-box-shadow-hover-medium">
+                  <span class="uk-icon uk-margin-small-right" uk-icon="icon: bell"></span>
+                  Daily Notices
+              </a>
+          </li>
+          <li class="uk-animation-toggle">
+              <a href="Calendar.html" class="uk-box-shadow-hover-medium">
+                  <span class="uk-icon uk-margin-small-right" uk-icon="icon: calendar"></span>
+                  Calendar
+              </a>
+          </li>
+        </ul>
+      </div>
+      <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+            <li class="uk-animation-toggle">
+                <a class="uk-box-shadow-hover-medium" uk-icon="icon: chevron-down">
+                  Stu Studentson
+                </a>
+                <div class="uk-navbar-dropdown" uk-dropdown="mode: click">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                      <li>
+                        <a href="Settings.html">
+                            <span class="uk-icon uk-margin-small-right" uk-icon="icon: cog"></span>
+                            Settings
+                        </a>
+                      </li>
+                      <li>
+                        <a href="Profile.html">
+                            <span class="uk-icon uk-margin-small-right" uk-icon="icon: user"></span>
+                            Profile
+                        </a>
+                      </li>
+                      <li>
+                        <a href="UnAuth.html" class="uk-text-danger">
+                            <span class="uk-icon uk-margin-small-right" uk-icon="icon: sign-out"></span>
+                            Log Out
+                        </a>
+                      </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+      </div>
+    </nav>
+    <div>
+      <ul class="uk-grid-small uk-text-center uk-height-1-1" uk-sortable="handle: .uk-sortable-handle" uk-grid uk-height-match="target: > li > .uk-card">
+        <li class="uk-width-expand">
+            <div class="uk-card uk-card-default uk-card-body uk-card-small">
+                <span class="uk-sortable-handle uk-align-left" uk-icon="icon: table"></span>
+                <div>
+                  <table class="uk-table uk-grid-collapse uk-text-center">
+                    <p class="uk-text-center uk-text-large">January</p>
+                    <thead>
+                        <tr>
+                            <th class="uk-text-center">Sunday</th>
+                            <th class="uk-text-center">Monday</th>
+                            <th class="uk-text-center">Tuesday</th>
+                            <th class="uk-text-center">Wednesday</th>
+                            <th class="uk-text-center">Thursday</th>
+                            <th class="uk-text-center">Friday</th>
+                            <th class="uk-text-center">Saturday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="uk-grid-collapse">
+                          <td>
+                            <div class="uk-card uk-card-hover uk-card-body uk-grid-collapse">
+                              <h3 class="uk-card-title">1</h3>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="uk-card uk-card-hover uk-card-body uk-grid-collapse">
+                              <h3 class="uk-card-title">2</h3>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="uk-card uk-card-hover uk-card-body">
+                              <h3 class="uk-card-title">3</h3>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="uk-card uk-card-hover uk-card-body">
+                              <h3 class="uk-card-title">4</h3>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="uk-card uk-card-primary uk-card-hover uk-card-body uk-light">
+                              <h3 class="uk-card-title">5</h3>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="uk-card uk-card-hover uk-card-body">
+                              <div class="uk-card-badge uk-label">3</div>
+                              <h3 class="uk-card-title">6</h3>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="uk-card uk-card-hover uk-card-body">
+                              <h3 class="uk-card-title">7</h3>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">8</h3>
+                    </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">9</h3>
+                    </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">10</h3>
+                    </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">11</h3>
+                    </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">12</h3>
+                    </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">13</h3>
+                    </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">14</h3>
+                    </div></td>
+                        </tr>
+                        <tr>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">15</h3>
+                    </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">16</h3>
+                    </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">17</h3>
+                    </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">18</h3>
+                    </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">19</h3>
+                    </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">20</h3>
+                    </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">21</h3>
+                    </div></td>
+                        </tr>
+                        <tr>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">21</h3>
+                    </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">22</h3>
+                    </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">23</h3>
+                    </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">24</h3>
+                    </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">25</h3>
+                    </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">26</h3>
+                    </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">27</h3>
+                    </div></td>
+
+                        </tr>
+                        <tr>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                                  <h3 class="uk-card-title">28</h3>
+                              </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                                  <h3 class="uk-card-title">29</h3>
+                              </div></td>
+                          <td><div class="uk-card uk-card-hover uk-card-body">
+                                  <h3 class="uk-card-title">30</h3>
+                              </div></td>
+                          <td class="uk-text-muted"><div class="uk-card uk-card-hover uk-card-body uk-card">
+                        <h3 class="uk-card-title uk-text-muted">1</h3>
+                    </div></td>
+                          <td class="uk-text-muted"><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title uk-text-muted">2</h3>
+                    </div></td>
+                          <td class="uk-text-muted"><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title uk-text-muted">3</h3>
+                    </div></td>
+                          <td class="uk-text-muted"><div class="uk-card uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title uk-text-muted">4</h3>
+                    </div></td>
+                        </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+        </li>
+        <li class="uk-width-auto">
+            <div class="uk-card uk-card-default uk-card-body">
+                <span class="uk-sortable-handle uk-align-left" uk-icon="icon: table"></span>
+                <p class="uk-text-center uk-text-large">Calendar Events</p>
+                <div class="uk-overflow-hidden">
+                  <table class="uk-table uk-table-hover uk-table-middle uk-table-divider">
+                      <thead>
+                          <tr>
+                              <th class="uk-table-shrink"></th>
+                              <th class="uk-table-expand"></th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td><input class="uk-checkbox" type="checkbox" checked="checked"></td>
+                              <td class="uk-table-link">
+                                  <a class="uk-link-reset" href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td><input class="uk-checkbox" type="checkbox"></td>
+                              <td class="uk-table-link">
+                                  <a class="uk-link-reset" href=""></a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td><input class="uk-checkbox" type="checkbox"></td>
+                              <td class="uk-table-link">
+                                  <a class="uk-link-reset" href=""></a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td><input class="uk-checkbox" type="checkbox"></td>
+                              <td class="uk-table-link">
+                                  <a class="uk-link-reset" href=""></a>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+                </div>
+            </div>
+        </li>
+      </ul>
+  </div>
+</html>

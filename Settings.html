@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+      <title>DinnerJacket</title>
+      <link rel='stylesheet' type='text/css' href='uikit/dist/css/uikit.min.css'>
+      <script src="uikit/dist/js/uikit-icons.min.js"></script>
+      <script src="uikit/dist/js/uikit.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+      <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+      <script src="semantic/dist/semantic.min.js"></script>
+      <script src="uikit/dist/js/uikit-icons.min.js"></script>
+  </head>
+  <body class="uk-dark">
+    <nav class="uk-navbar-container uk-margin" uk-navbar>
+      <div class="uk-navbar-left">
+        <a href="" class="uk-navbar-item uk-logo" uk-icon="icon: star; ratio:2"></a>
+        <ul class="uk-navbar-nav">
+          <li class="uk-animation-toggle">
+              <a href="index.html" class="uk-box-shadow-hover-medium">
+                  <span class="uk-icon uk-margin-small-right" uk-icon="icon: home"></span>
+                  Dashboard
+              </a>
+          </li>
+          <li class="uk-animation-toggle">
+              <a href="timetable.html" class="uk-box-shadow-hover-medium">
+                  <span class="uk-icon uk-margin-small-right" uk-icon="icon: star"></span>
+                  Timetable
+              </a>
+          </li>
+          <li class="uk-animation-toggle">
+              <a href="Notes.html" class="uk-box-shadow-hover-medium">
+                  <span class="uk-icon uk-margin-small-right" uk-icon="icon: file-edit"></span>
+                  Notes
+              </a>
+          </li>
+          <li class="uk-animation-toggle">
+              <a href="Daily Notices.html" class="uk-box-shadow-hover-medium">
+                  <span class="uk-icon uk-margin-small-right" uk-icon="icon: bell"></span>
+                  Daily Notices
+              </a>
+          </li>
+          <li class="uk-animation-toggle">
+              <a href="Calendar.html" class="uk-box-shadow-hover-medium">
+                  <span class="uk-icon uk-margin-small-right" uk-icon="icon: calendar"></span>
+                  Calendar
+              </a>
+          </li>
+        </ul>
+      </div>
+      <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+            <li class="uk-animation-toggle">
+                <a class="uk-box-shadow-hover-medium" uk-icon="icon: chevron-down">
+                  Stu Studentson
+                </a>
+                <div class="uk-navbar-dropdown" uk-dropdown="mode: click">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                      <li>
+                        <a href="Settings.html">
+                            <span class="uk-icon uk-margin-small-right" uk-icon="icon: cog"></span>
+                            Settings
+                        </a>
+                      </li>
+                      <li>
+                        <a href="Profile.html">
+                            <span class="uk-icon uk-margin-small-right" uk-icon="icon: user"></span>
+                            Profile
+                        </a>
+                      </li>
+                      <li>
+                        <a href="UnAuth.html" class="uk-text-danger">
+                            <span class="uk-icon uk-margin-small-right" uk-icon="icon: sign-out"></span>
+                            Log Out
+                        </a>
+                      </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="uk-card uk-card-default uk-card-body uk-text-center uk-margin-large-left uk-margin-large-right">
+      <i class="volume up icon"></i>
+      <p class="uk-card-title">Notifications</p>
+      <p class="uk-card-body">Slider</p>
+      <div class="uk-margin">
+            <input class="uk-range" type="range" value="2" min="0" max="10" step="0.1">
+        </div>
+        <div class="ui toggle checkbox">
+          <input type="checkbox" name="public">
+        </div>
+    </div>
+  </body>
+</html>
+<!--  -->
