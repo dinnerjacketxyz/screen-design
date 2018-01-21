@@ -47,6 +47,23 @@
         </ul>
       </div>
       <div class="uk-navbar-right">
+        <div>
+          <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+          <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+          </div>
+        </div>
+        <select class="ui search dropdown">
+          <option value="">All Students</option>
+          <option value="">Year 12</option>
+          <option value="">Year 11</option>
+          <option value="">Year 10</option>
+          <option value="">Year 9</option>
+          <option value="">Year 8</option>
+          <option value="">Year 7</option>
+        </select>
         <ul class="uk-navbar-nav">
             <li class="uk-animation-toggle">
                 <a class="uk-box-shadow-hover-medium" uk-icon="icon: chevron-down">
@@ -58,6 +75,12 @@
                         <a href="Settings.html">
                             <span class="uk-icon uk-margin-small-right" uk-icon="icon: cog"></span>
                             Settings
+                        </a>
+                      </li>
+                      <li>
+                        <a href="Profile.html">
+                            <span class="uk-icon uk-margin-small-right" uk-icon="icon: user"></span>
+                            Profile
                         </a>
                       </li>
                       <li>

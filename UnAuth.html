@@ -21,7 +21,7 @@
               </a>
           </li>
           <li class="uk-animation-toggle">
-              <a href="Calendar.html" class="uk-box-shadow-hover-medium">
+              <a href="Un Auth Calendar.html" class="uk-box-shadow-hover-medium">
                   <span class="uk-icon uk-margin-small-right" uk-icon="icon: calendar"></span>
                   Calendar
               </a>
@@ -39,96 +39,121 @@
       </div>
     </nav>
     <h1 class = "uk-text-center"></h1>
-    <div class="uk-card uk-card-default uk-card-body">
-      <div class="uk-card uk-card-default uk-card-body">
+    <div class="">
+      <div class="uk-card uk-card-default uk-card-body uk-margin-left uk-margin-right uk-card-small">
         <span class="uk-sortable-handle uk-align-left" uk-icon="icon: table"></span>
-        Maths Morning Class in
+        <p class="uk-text-center">Roll Call in</p>
         <p class="uk-text-center uk-heading-primary">
           10:00:00
         </p>
         <table class="uk-table uk-table-striped uk-table-hover uk-table-small">
           <tbody>
             <tr>
-              <td>
-                <dt class="uk-text-left uk-text-bold">Maths Morning Class</dt>
-                <dd class="uk-text-meta uk-text-muted uk-text-top uk-text-left">
-                  at 08:00 with Ms Maths
-                </dd>
+              <td class="">
+                <dt class="uk-text-left uk-text-bold">Period 1</dt>
               </td>
-              <td class="uk-text-middle uk-text-bold uk-table-shrink">101</td>
+              <td class="uk-text-middle uk-text-bold uk-table-shrink">09:05</td>
             </tr>
             <tr>
               <td class="">
-                <dt class="uk-text-left uk-text-bold">English</dt>
-                <dd class="uk-text-meta uk-text-muted uk-text-top uk-text-left">
-                  at 09:05 with Ms English
-                </dd>
+                <dt class="uk-text-left uk-text-bold">Period 2</dt>
               </td>
-              <td class="uk-text-middle uk-text-bold uk-table-shrink">201</td>
+              <td class="uk-text-middle uk-text-bold uk-table-shrink">10:10</td>
             </tr>
             <tr>
-              <td class="uk-text-left">Study Period</td>
-              <td class="uk-text-middle uk-table-shrink">10:10</td>
+              <td class="">
+                <dt class="uk-text-left uk-text-bold">Period 3</dt>
+              </td>
+              <td class="uk-text-middle uk-text-bold uk-table-shrink">11:50</td>
             </tr>
             <tr>
-              <td>
-                <dt class="uk-text-left uk-text-bold">Maths</dt>
-                <dd class="uk-text-meta uk-text-muted uk-text-top uk-text-left">
-                  at 11:50 with Ms Maths
-                </dd>
+              <td class="">
+                <dt class="uk-text-left uk-text-bold">Period 4</dt>
               </td>
-              <td class="uk-text-middle uk-text-bold uk-table-shrink">101</td>
+              <td class="uk-text-middle uk-text-bold uk-table-shrink">12:55</td>
             </tr>
             <tr>
-              <td>
-                <dt class="uk-text-left uk-text-bold">English</dt>
-                <dd class="uk-text-meta uk-text-muted uk-text-top uk-text-left">
-                  at 12:55 with Ms English
-                </dd>
+              <td class="">
+                <dt class="uk-text-left uk-text-bold">Period 5</dt>
               </td>
-              <td class="uk-text-middle uk-text-bold uk-table-shrink">201</td>
-            </tr>
-            <tr>
-              <td>
-                <dt class="uk-text-left uk-text-bold">Maths</dt>
-                <dd class="uk-text-meta uk-text-muted uk-text-top uk-text-left">
-                  at 14:15 with Ms Maths
-                </dd>
-              </td>
-              <td class="uk-text-middle uk-text-bold uk-table-shrink">101</td>
-            </tr>
-            <tr>
-              <td>
-                <dt class="uk-text-left uk-text-bold">Soccer Training at Moore Park West</dt>
-                <dd class="uk-text-meta uk-text-muted uk-text-top uk-text-left">
-                  at 15:20 with Ms Soccer
-                </dd>
-              </td>
-              <td class="uk-text-middle uk-text-bold uk-table-shrink">101</td>
+              <td class="uk-text-middle uk-text-bold uk-table-shrink">14:15</td>
             </tr>
           </tbody>
         </table>
       </div>
     </div>
     <div id="modal-center" class="uk-flex-top" uk-modal>
-      <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
-        <button class="uk-modal-close-default" type="button" uk-close></button>
-        <p> </p>
-        <p> </p>
-        <p> </p>
-        <h1 class="">Login to Intranet Portal</h1>
-        <p>Login using your Sydney Boys High School network details.</p>
-        <input class="uk-input uk-width-1-1" type="text" placeholder="Username">
-        <p></p>
-        <input class="uk-input uk-width-1-1" type="text" placeholder="Password">
-        <p></p>
-        <a class="uk-button uk-button-primary uk-width-1-1" href="index.html">Login</a>
-        <p/>
-        <p/>
-        <a class="uk-link-muted">Parent Registration</a>
-        <p><p/>
-        <a class="uk-link-muted" uk-icon="icon: question"></a>
-        <p></p>
+      <div  class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+        <ul class="uk-subnav uk-subnav-pill uk-flex-center" uk-switcher>
+          <li><a href="#">Students</a></li>
+          <li><a href="#">Teachers</a></li>
+          <li><a href="#">Parents</a></li>
+        </ul>
+        <ul class="uk-switcher uk-margin">
+          <li>
+            <div>
+              <button class="uk-modal-close-default" type="button" uk-close></button>
+              <p> </p>
+              <p> </p>
+              <p> </p>
+              <h1 class="">Student Login to Intranet Portal</h1>
+              <p>Login using your Sydney Boys High School network details.</p>
+              <input class="uk-input uk-width-1-1" type="text" placeholder="Username">
+              <p></p>
+              <input class="uk-input uk-width-1-1" type="text" placeholder="Password">
+              <p></p>
+              <a class="uk-button uk-button-primary uk-width-1-1" href="index.html">Login</a>
+              <p/>
+              <p/>
+              <a class="uk-link-muted">Parent Registration</a>
+              <p><p/>
+              <a class="uk-link-muted" uk-icon="icon: question"></a>
+              <p></p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <button class="uk-modal-close-default" type="button" uk-close></button>
+              <p> </p>
+              <p> </p>
+              <p> </p>
+              <h1 class="">Teacher Login to Intranet Portal</h1>
+              <p>Login using your Sydney Boys High School network details.</p>
+              <input class="uk-input uk-width-1-1" type="text" placeholder="Username">
+              <p></p>
+              <input class="uk-input uk-width-1-1" type="text" placeholder="Password">
+              <p></p>
+              <a class="uk-button uk-button-primary uk-width-1-1" href="index.html">Login</a>
+              <p/>
+              <p/>
+              <a class="uk-link-muted">Parent Registration</a>
+              <p><p/>
+              <a class="uk-link-muted" uk-icon="icon: question"></a>
+              <p></p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <button class="uk-modal-close-default" type="button" uk-close></button>
+              <p> </p>
+              <p> </p>
+              <p> </p>
+              <h1 class="">Parent Login to Intranet Portal</h1>
+              <p>Login using your Sydney Boys High School network details.</p>
+              <input class="uk-input uk-width-1-1" type="text" placeholder="Username">
+              <p></p>
+              <input class="uk-input uk-width-1-1" type="text" placeholder="Password">
+              <p></p>
+              <a class="uk-button uk-button-primary uk-width-1-1" href="index.html">Login</a>
+              <p/>
+              <p/>
+              <a class="uk-link-muted">Parent Registration</a>
+              <p><p/>
+              <a class="uk-link-muted" uk-icon="icon: question"></a>
+              <p></p>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
