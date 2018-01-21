@@ -66,12 +66,6 @@
                         </a>
                       </li>
                       <li>
-                        <a href="Profile.html">
-                            <span class="uk-icon uk-margin-small-right" uk-icon="icon: user"></span>
-                            Profile
-                        </a>
-                      </li>
-                      <li>
                         <a href="UnAuth.html" class="uk-text-danger">
                             <span class="uk-icon uk-margin-small-right" uk-icon="icon: sign-out"></span>
                             Log Out
@@ -84,14 +78,28 @@
       </div>
     </nav>
     <div class="uk-card uk-card-default uk-card-body uk-text-center uk-margin-large-left uk-margin-large-right">
-      <i class="volume up icon"></i>
+      <i class="big volume up icon"></i>
       <p class="uk-card-title">Notifications</p>
-      <p class="uk-card-body">Slider</p>
+      <a class="uk-card-body">Slider</a>
       <div class="uk-margin">
             <input class="uk-range" type="range" value="2" min="0" max="10" step="0.1">
         </div>
+        <p class="uk-card-body uk-text-center">Toggle</p>
         <div class="ui toggle checkbox">
           <input type="checkbox" name="public">
+          <label></label>
+        </div>
+      <hr/>
+      <span uk-icon="icon: nut; ratio:2"></span>
+      <p class="uk-card-title">System</p>
+      <a class="uk-card-body">Slider</a>
+      <div class="uk-margin">
+            <input class="uk-range" type="range" value="2" min="0" max="10" step="0.1">
+        </div>
+        <p class="uk-card-body uk-text-center">Toggle</p>
+        <div class="ui toggle checkbox">
+          <input type="checkbox" name="public">
+          <label></label>
         </div>
     </div>
   </body>
