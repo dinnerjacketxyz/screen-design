@@ -33,6 +33,12 @@
               </a>
           </li>
           <li class="uk-animation-toggle">
+              <a href="studentClassNotes.html" class="uk-box-shadow-hover-medium">
+                  <span class="uk-icon uk-margin-small-right" uk-icon="icon: users"></span>
+                  Class Notes
+              </a>
+          </li>
+          <li class="uk-animation-toggle uk-active">
               <a href="studentDailyNotices.html" class="uk-box-shadow-hover-medium">
                   <span class="uk-icon uk-margin-small-right" uk-icon="icon: bell"></span>
                   Daily Notices
@@ -47,6 +53,23 @@
         </ul>
       </div>
       <div class="uk-navbar-right">
+        <div>
+          <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+          <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+          </div>
+        </div>
+        <select class="uk-select uk-form-width-xsmall">
+          <option value="">All</option>
+          <option value="">Y12</option>
+          <option value="">Y11</option>
+          <option value="">Y10</option>
+          <option value="">Y9</option>
+          <option value="">Y8</option>
+          <option value="">Y7</option>
+        </select>
         <ul class="uk-navbar-nav">
             <li class="uk-animation-toggle">
                 <a class="uk-box-shadow-hover-medium" uk-icon="icon: chevron-down">
