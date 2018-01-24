@@ -90,43 +90,42 @@
         </ul>
       </div>
     </nav>
-    <div class="uk-card uk-card-default uk-card-body uk-text-center uk-margin-left uk-margin-right">
-      <i class="big volume up icon"></i>
-      <p class="uk-card-title">Notifications</p>
-      <hr></hr>
-      <table class="uk-table">
-        <tbody>
-            <tr>
-                <td class="uk-text-left">Slider</td>
-                <td class="uk-float-right"><input class="uk-range" type="range" value="2" min="0" max="10" step="0.1"</td>
-            </tr>
-            <tr>
-                <td class="uk-text-left">Toggle</td>
-                <td class="uk-float-right"><div class="ui toggle checkbox">
-                  <input type="checkbox" name="public">
-                  <label></label>
-                </div></td>
-            </tr>
-        </tbody>
-      </table>
-      <span uk-icon="icon: nut; ratio:2"></span>
-      <p class="uk-card-title">System</p>
-      <hr></hr>
-      <table class="uk-table">
-        <tbody>
-            <tr>
-                <td class="uk-text-left">Slider</td>
-                <td class="uk-float-right"><input class="uk-range" type="range" value="2" min="0" max="10" step="0.1"</td>
-            </tr>
-            <tr>
-                <td class="uk-text-left">Toggle</td>
-                <td class="uk-float-right"><div class="ui toggle checkbox">
-                  <input type="checkbox" name="public">
-                  <label></label>
-                </div></td>
-            </tr>
-        </tbody>
-      </table>
+    <div class="uk-flex uk-flex-center">
+      <div class="uk-card uk-card-default uk-card-body uk-text-center uk-margin-left uk-margin-right uk-width-1-3@l uk-width-1-2@m uk-width-2-3@s">
+        <span uk-icon="icon: user; ratio:2"></span>
+        <p class="uk-card-title">Profile</p>
+        <hr></hr>
+        <table class="uk-table">
+          <tbody>
+              <tr>
+                  <td class="uk-text-left">Slider</td>
+                  <td class="uk-float-right"><input class="uk-range" type="range" value="2" min="0" max="10" step="0.1"</td>
+              </tr>
+              <tr>
+                  <td class="uk-text-left">Toggle</td>
+                  <td class="uk-float-right"><div class="ui toggle checkbox">
+                    <input type="checkbox" checked="checked">
+                    <label></label>
+                  </div></td>
+              </tr>
+              <tr>
+                  <td class="uk-text-left">Enable parent access</td>
+                  <td class="uk-float-right"><div class="ui toggle checkbox">
+                    <button class="uk-button-small uk-button-primary" href="#modal-access" uk-toggle>Generate access code</button>
+                    <button class="uk-button-small uk-button-default">Cancel access</button>
+                  </div></td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+    </div><div id="modal-access" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical" uk-inline>
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <h1><span uk-icon='icon: check; ratio: 1.5'></span> Your access code has been generated</h1>
+            <h4 class="uk-text-center">Your access code is: <code class="uk-heading-primary uk-text-middle uk-text-center">1234</code></h4>
+
+            <p>Create a parent account and use this code to verify it. If the parent account already has been registered, use the "Add account" section of the parent account to register multiple students.</p>
+        </div>
     </div>
   </body>
 </html>
