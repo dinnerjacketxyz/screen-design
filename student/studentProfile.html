@@ -95,35 +95,58 @@
         <span uk-icon="icon: user; ratio:2"></span>
         <p class="uk-card-title">Profile</p>
         <hr></hr>
-        <table class="uk-table">
-          <tbody>
-              <tr>
-                  <td class="uk-text-left">Slider</td>
-                  <td class="uk-float-right"><input class="uk-range" type="range" value="2" min="0" max="10" step="0.1"</td>
-              </tr>
-              <tr>
-                  <td class="uk-text-left">Toggle</td>
-                  <td class="uk-float-right"><div class="ui toggle checkbox">
-                    <input type="checkbox" checked="checked">
+        <form class="uk-form-horizontal uk-margin-large">
+
+            <div class="uk-margin">
+                <label class="uk-form-label" for="form-horizontal-text">Text</label>
+                <div class="uk-form-controls">
+                    <input class="uk-input" type="text" placeholder="Some text...">
+                </div>
+            </div>
+
+            <div class="uk-margin">
+                <label class="uk-form-label" for="form-horizontal-select">Select</label>
+                <div class="uk-form-controls">
+                    <select class="uk-select">
+                        <option>Option 01</option>
+                        <option>Option 02</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="uk-margin">
+                <label class="uk-form-label" for="form-horizontal-text">Slider</label>
+                <div class="uk-form-controls">
+                    <input class="uk-range" type="range" value="2" min="0" max="10" step="0.1">
+                </div>
+            </div>
+
+            <div class="uk-margin">
+                <label class="uk-form-label" for="form-horizontal-text">Toggle</label>
+                <div class="uk-form-controls">
+                  <div class="ui toggle checkbox">
+                    <input type="checkbox" name="public">
                     <label></label>
-                  </div></td>
-              </tr>
-              <tr>
-                  <td class="uk-text-left">Enable parent access</td>
-                  <td class="uk-float-right"><div class="ui toggle checkbox">
-                    <button class="uk-button-small uk-button-primary" href="#modal-access" uk-toggle>Generate access code</button>
-                    <button class="uk-button-small uk-button-default">Cancel access</button>
-                  </div></td>
-              </tr>
-          </tbody>
-        </table>
+                  </div>
+                </div>
+            </div>
+
+            <div class="uk-margin">
+                <label class="uk-form-label" for="form-horizontal-text">Parent Access</label>
+                <div class="uk-form-controls">
+                  <button class="uk-button-small uk-button-primary" href="#modal-access" uk-toggle>Generate access code</button>
+                  <button class="uk-button-small uk-button-default">Cancel access</button>
+                </div>
+            </div>
+
+        </form>
       </div>
-    </div><div id="modal-access" class="uk-flex-top" uk-modal>
+    </div>
+    <div id="modal-access" class="uk-flex-top" uk-modal>
         <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical" uk-inline>
             <button class="uk-modal-close-default" type="button" uk-close></button>
             <h1><span uk-icon='icon: check; ratio: 1.5'></span> Your access code has been generated</h1>
             <h4 class="uk-text-center">Your access code is: <code class="uk-heading-primary uk-text-middle uk-text-center">1234</code></h4>
-
             <p>Create a parent account and use this code to verify it. If the parent account already has been registered, use the "Add account" section of the parent account to register multiple students.</p>
         </div>
     </div>
