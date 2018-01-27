@@ -21,15 +21,9 @@
                 </a>
             </li>
             <li class="uk-animation-toggle">
-                <a href="parentTimetable.html" class="uk-box-shadow-hover-medium">
-                    <span class="uk-icon uk-margin-small-right" uk-icon="icon: star"></span>
-                    Timetable
-                </a>
-            </li>
-            <li class="uk-animation-toggle">
-                <a href="parentDailyNotices.html" class="uk-box-shadow-hover-medium">
-                    <span class="uk-icon uk-margin-small-right" uk-icon="icon: bell"></span>
-                    Daily Notices
+                <a href="parentClassNotes.html" class="uk-box-shadow-hover-medium">
+                    <span class="uk-icon uk-margin-small-right" uk-icon="icon: users"></span>
+                    Class Notes
                 </a>
             </li>
             <li class="uk-animation-toggle">
@@ -44,7 +38,7 @@
             <ul class="uk-navbar-nav">
                 <li class="uk-animation-toggle">
                     <a class="uk-box-shadow-hover-medium" uk-icon="icon: chevron-down">
-                    Parent Parentston
+                    Parent Parentson
                     </a>
                     <div class="uk-navbar-dropdown" uk-dropdown="mode: click">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
@@ -78,142 +72,204 @@
             </ul>
         </div>
     </nav>
-    <div class="uk-grid-medium uk-child-width-expand@s uk-text-center uk-margin-auto-left uk-margin-medium-right" uk-grid uk-sortable = "handle: .uk-sortable-handle" uk-height-match="target: > div > .uk-card">
+    <div class="uk-grid-medium uk-child-width-expand@s uk-margin-right uk-margin-left uk-grid-collapse" uk-grid uk-sortable = "handle: .uk-sortable-handle" uk-height-match="target: > div > .uk-card">
       <div>
         <div class="uk-card uk-card-default uk-card-body">
-          <span class="uk-sortable-handle uk-align-left" uk-icon="icon: table"></span>
-          Roll Call in
-          <p class="uk-text-center uk-heading-primary">
+          <span class="uk-sortable-handle uk-float-left" uk-icon="icon: table"></span>
+          <p class="uk-text-center uk-text-large">Roll Call in</p>
+          <h1 class="uk-text-center uk-heading-primary">
             10:00:00
-          </p>
-          <table class="uk-table uk-table-striped uk-table-hover uk-table-small">
-            <tbody>
-              <tr>
-                <td class="">
-                  <dt class="uk-text-left uk-text-bold">English</dt>
-                  <dd class="uk-text-meta uk-text-muted uk-text-top uk-text-left">
-                    at 09:05 with Ms English
-                  </dd>
-                </td>
-                <td class="uk-text-middle uk-text-bold uk-table-shrink">201</td>
-              </tr>
-              <tr>
-                <td class="uk-text-left">Study Period</td>
-                <td class="uk-text-middle uk-table-shrink">10:10</td>
-              </tr>
-              <tr>
-                <td>
-                  <dt class="uk-text-left uk-text-bold">Maths</dt>
-                  <dd class="uk-text-meta uk-text-muted uk-text-top uk-text-left">
-                    at 11:50 with Ms Maths
-                  </dd>
-                </td>
-                <td class="uk-text-middle uk-text-bold uk-table-shrink">101</td>
-              </tr>
-              <tr>
-                <td>
-                  <dt class="uk-text-left uk-text-bold">English</dt>
-                  <dd class="uk-text-meta uk-text-muted uk-text-top uk-text-left">
-                    at 12:55 with Ms English
-                  </dd>
-                </td>
-                <td class="uk-text-middle uk-text-bold uk-table-shrink">201</td>
-              </tr>
-              <tr>
-                <td>
-                  <dt class="uk-text-left uk-text-bold">Maths</dt>
-                  <dd class="uk-text-meta uk-text-muted uk-text-top uk-text-left">
-                    at 14:15 with Ms Maths
-                  </dd>
-                </td>
-                <td class="uk-text-middle uk-text-bold uk-table-shrink">101</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div>
-        <div class="uk-card uk-card-default uk-card-body">
-          <span class="uk-sortable-handle uk-align-left" uk-icon="icon: table"></span>
-          <h2>
-            Today
-          </h2>
-          <div class="uk-overflow-hidden">
-            <table class="uk-table uk-table-hover uk-table-middle uk-table-divider">
-                <thead>
-                    <tr>
-                        <th class="uk-table-shrink"></th>
-                        <th class="uk-table-expand"></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><input class="uk-checkbox" type="checkbox" checked="checked"></td>
-                        <td class="uk-table-link">
-                            <a class="uk-link-reset" href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><input class="uk-checkbox" type="checkbox"></td>
-                        <td class="uk-table-link">
-                            <a class="uk-link-reset" href=""></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><input class="uk-checkbox" type="checkbox"></td>
-                        <td class="uk-table-link">
-                            <a class="uk-link-reset" href=""></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><input class="uk-checkbox" type="checkbox"></td>
-                        <td class="uk-table-link">
-                            <a class="uk-link-reset" href=""></a>
-                        </td>
-                    </tr>
-                </tbody>
+          </h1>
+          <div class="uk-flex uk-flex-center">
+            <table class="uk-table uk-table-hover uk-table-small uk-width-4-5@l uk-width-5-6@m">
+              <thead>
+                <tr>
+                  <th class="uk-text-center"></th>
+                  <th class="uk-text-center"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="uk-text-lead uk-text-left uk-text-muted">
+                    Period 1
+                  </td>
+                  <td class="uk-text-middle uk-table-shrink uk-text-lead uk-text-center">09:05</td>
+                </tr>
+                <tr>
+                  <td class="uk-text-lead uk-text-left uk-text-muted">
+                    Period 2
+                  </td>
+                  <td class="uk-text-middle uk-table-shrink uk-text-lead uk-text-center">10:10</td>
+                </tr>
+                <tr>
+                  <td class="uk-text-lead uk-text-left uk-text-muted">
+                    Lunch
+                  </td>
+                  <td class="uk-text-middle uk-table-shrink uk-text-lead uk-text-center">11:10</td>
+                </tr>
+                <tr>
+                  <td class="uk-text-lead uk-text-left uk-text-muted">
+                    Period 3
+                  </td>
+                  <td class="uk-text-middle uk-table-shrink uk-text-lead uk-text-center">11:50</td>
+                </tr>
+                <tr>
+                  <td class="uk-text-lead uk-text-left uk-text-muted">
+                    Period 4
+                  </td>
+                  <td class="uk-text-middle uk-table-shrink uk-text-lead uk-text-center">12:55</td>
+                </tr>
+                <tr>
+                  <td class="uk-text-lead uk-text-left uk-text-muted">
+                    Recess
+                  </td>
+                  <td class="uk-text-middle uk-table-shrink uk-text-lead uk-text-center">13:55</td>
+                </tr>
+                <tr>
+                  <td class="uk-text-lead uk-text-left uk-text-muted">
+                    Period 5
+                  </td>
+                  <td class="uk-text-middle uk-table-shrink uk-text-lead uk-text-center">14:15</td>
+                </tr>
+              </tbody>
             </table>
           </div>
         </div>
       </div>
       <div>
         <div class="uk-card uk-card-default uk-card-body">
-          <span class="uk-sortable-handle uk-align-left" uk-icon="icon: table"></span>
-          <h2>
-            Upcoming
+          <span class="uk-sortable-handle uk-float-left" uk-icon="icon: table"></span>
+          <a href="" class="uk-icon-link uk-float-right" uk-icon="icon: plus-circle"></a>
+          <h2 class="uk-flex uk-flex-center">
+            Class Notes
           </h2>
+          <ul uk-accordion="multiple: true">
+              <li class="uk-open">
+                  <a class="uk-accordion-title uk-text-left" href="">Student 1</a>
+                  <div class="uk-accordion-content">
+                    <table class="uk-table uk-table-small uk-table-hover">
+                        <thead>
+                            <tr>
+                                <th class="uk-table-shrink"></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="uk-label uk-label-warning uk-align-right uk-text-middle">ENG</span></td>
+                                <td>
+                                  <ul uk-accordion="multiple: true">
+                                    <li>
+                                        <a class="uk-accordion-title" href="#">Item 1</a>
+                                        <div class="uk-accordion-content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                    </li>
+                                  </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="uk-label uk-label-primary uk-align-right uk-text-middle">MAT</span></td>
+                                <td>
+                                  <ul uk-accordion="multiple: true">
+                                    <li>
+                                        <a class="uk-accordion-title" href="#">Item 2</a>
+                                        <div class="uk-accordion-content">
+                                            <a class="uk-icon-link uk-float-right" uk-icon="icon: more-vertical; ratio: 0.75"></a>
+                                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                                        </div>
+                                    </li>
+                                  </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                  </div>
+              </li>
+              <li>
+                  <a class="uk-accordion-title uk-text-left" href="">Student 2</a>
+                  <div class="uk-accordion-content">
+                    <div class="">
+                      <table class="uk-table uk-table-small uk-table-hover">
+                          <thead>
+                              <tr>
+                                  <th class="uk-table-shrink"></th>
+                                  <th></th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td><span class="uk-label uk-label-warning uk-align-right uk-text-middle">ENG</span></td>
+                                  <td>
+                                    <ul uk-accordion="multiple: true">
+                                      <li>
+                                          <a class="uk-accordion-title" href="#">Item 1</a>
+                                          <div class="uk-accordion-content">
+                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                          </div>
+                                      </li>
+                                    </ul>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td><span class="uk-label uk-label-primary uk-align-right uk-text-middle">MAT</span></td>
+                                  <td>
+                                    <ul uk-accordion="multiple: true">
+                                      <li>
+                                          <a class="uk-accordion-title" href="#">Item 2</a>
+                                          <div class="uk-accordion-content">
+                                              <a class="uk-icon-link uk-float-right" uk-icon="icon: more-vertical; ratio: 0.75"></a>
+                                              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                                          </div>
+                                      </li>
+                                    </ul>
+                                  </td>
+                              </tr>
+                          </tbody>
+                      </table>
+                    </div>
+                  </div>
+              </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="uk-card uk-card-default uk-card-body">
+          <span class="uk-sortable-handle uk-float-left" uk-icon="icon: table"></span>
+          <a href="" class="uk-icon-link uk-float-right" uk-icon="icon: plus-circle"></a>
+          <h1 class="uk-text-center uk-text-large uk-h1">Calendar Events</h1>
           <div class="uk-overflow-hidden">
             <table class="uk-table uk-table-hover uk-table-middle uk-table-divider">
                 <thead>
                     <tr>
-                        <th class="uk-table-shrink"></th>
                         <th class="uk-table-expand"></th>
+                        <th class="uk-table-shrink"></th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><input class="uk-checkbox" type="checkbox" checked="checked"></td>
-                        <td class="uk-table-link">
-                            <a class="uk-link-reset" href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</a>
-                        </td>
+                      <td class="uk-table-link">
+                          <a class="uk-link-reset" href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</a>
+                      </td>
+                      <td><a href="" class="uk-icon-link uk-float-right" uk-icon="icon: more-vertical"></a></td>
                     </tr>
                     <tr>
-                        <td><input class="uk-checkbox" type="checkbox"></td>
-                        <td class="uk-table-link">
-                            <a class="uk-link-reset" href=""></a>
-                        </td>
+                      <td class="uk-table-link">
+                          <a class="uk-link-reset" href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</a>
+                      </td>
+                      <td><a href="" class="uk-icon-link uk-float-right" uk-icon="icon: more-vertical"></a></td>
                     </tr>
                     <tr>
-                        <td><input class="uk-checkbox" type="checkbox"></td>
-                        <td class="uk-table-link">
-                            <a class="uk-link-reset" href=""></a>
-                        </td>
+                      <td class="uk-table-link">
+                          <a class="uk-link-reset" href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</a>
+                      </td>
+                      <td><a href="" class="uk-icon-link uk-float-right" uk-icon="icon: more-vertical"></a></td>
                     </tr>
                     <tr>
-                        <td><input class="uk-checkbox" type="checkbox"></td>
-                        <td class="uk-table-link">
-                            <a class="uk-link-reset" href=""></a>
-                        </td>
+                      <td class="uk-table-link">
+                          <a class="uk-link-reset" href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</a>
+                      </td>
+                      <td><a href="" class="uk-icon-link uk-float-right" uk-icon="icon: more-vertical"></a></td>
                     </tr>
                 </tbody>
             </table>
@@ -221,6 +277,5 @@
         </div>
       </div>
     </div>
-  </body>
 </html>
 <!--  -->

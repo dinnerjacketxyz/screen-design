@@ -20,20 +20,20 @@
                   Dashboard
               </a>
           </li>
-          <li class="uk-animation-toggle">
+          <li class="uk-animation-toggle uk-active">
               <a href="teacherNotes.html" class="uk-box-shadow-hover-medium">
                   <span class="uk-icon uk-margin-small-right" uk-icon="icon: file-edit"></span>
                   Notes
               </a>
           </li>
-          <li class="uk-animation-toggle uk-active">
+          <li class="uk-animation-toggle">
               <a href="teacherClassNotes.html" class="uk-box-shadow-hover-medium">
                   <span class="uk-icon uk-margin-small-right" uk-icon="icon: users"></span>
                   Class Notes
               </a>
           </li>
           <li class="uk-animation-toggle">
-              <a href="teacherDailyNotices.html" class="uk-box-shadow-hover-medium">
+              <a href="teacherNotices.html" class="uk-box-shadow-hover-medium">
                   <span class="uk-icon uk-margin-small-right" uk-icon="icon: bell"></span>
                   Daily Notices
               </a>
@@ -85,28 +85,42 @@
       </div>
     </nav>
     <div class="uk-flex uk-flex-center">
-      <div class="uk-margin-left uk-margin-right uk-card uk-card-default uk-card-body uk-width-2-5@xl uk-width-1 uk-width-1-2@l uk-width-2-3@m uk-width-3-4@s">
-        <ul class="uk-subnav uk-subnav-pill uk-flex uk-flex-center" uk-switcher>
-            <li><a href="#">Post</a></li>
-            <li><a href="#">View</a></li>
-        </ul>
-        <ul class="uk-switcher uk-margin">
-            <li>
-              <div class="uk-flex uk-flex-center">
-                <select class="uk-select uk-form-small uk-form-width-small">
-                  <option>7 ENG 1</option>
-                  <option>8 ENG 1</option>
-                  <option>9 ENG 1</option>
-                  <option>10 ENG 1</option>
-                  <option>11 ENG 1</option>
-                  <option>12 ENG 1</option>
-                </select>
-              </div>
+      <div class="uk-text-center uk-margin-left uk-margin-right uk-grid-collapse uk-width-3-5@xl " uk-grid uk-sortable = "handle: .uk-sortable-handle" uk-height-match="target: > div > .uk-card">
+        <div class="uk-width-1-5@m uk-height-large@m">
+          <div class="uk-card uk-card-default uk-card-body">
+              <span class="uk-sortable-handle uk-float-left" uk-icon="icon: table"></span>
+              <a href="" class="uk-icon-link uk-float-right" uk-icon="icon: plus-circle"></a>
               <h2></h2>
+              <div class="uk-overflow-auto">
+                <table class="uk-table uk-table-small uk-table-hover">
+                  <tbody>
+                      <tr>
+                          <td>
+                            Lorem ipsum
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                            Lorem ipsum
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                            Lorem ipsum
+                          </td>
+                      </tr>
+                  </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="uk-width-expand">
+          <div class="uk-card uk-card-default uk-card-body">
+              <span class="uk-sortable-handle uk-float-left" uk-icon="icon: table"></span>
               <div class="uk-flex uk-flex-center">
                 <div class="uk-grid-divider uk-grid-small" uk-grid>
                   <div class="">
-                    <a href="" uk-icon="icon: plus"></a>
+                    <a href="" uk-icon="icon: plus-circle"></a>
                     <a href="" uk-icon="icon: copy"></a>
                     <a href="" uk-icon="icon: trash"></a>
                   </div>
@@ -145,54 +159,13 @@
                 <input class="uk-input uk-form-blank uk-form-large" type="Title" placeholder="Title">
               </div>
               <div class="uk-margin">
-                <textarea class="uk-textarea uk-form-blank" rows="5" placeholder="Body"></textarea>
+                <textarea class="uk-textarea uk-form-blank" rows="10" placeholder="Body"></textarea>
               </div>
-              <h3></h3>
-              <button class="uk-button uk-button-primary" href="">Submit</button>
-              <button class="uk-button uk-button-default" href="">Save</button>
-            </li>
-            <li><ul uk-accordion="multiple: true">
-              <li>
-                  <a class="uk-accordion-title" href="#">Item 1  <span class="uk-label">7 ENG 1</span> </a>
-                  <div class="uk-accordion-content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  </div>
-              </li>
-              <li>
-                  <a class="uk-accordion-title" href="#">Item 2  <span class="uk-label">8 ENG 1</span> </a>
-                  <div class="uk-accordion-content">
-                      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
-                  </div>
-              </li>
-              <li>
-                  <a class="uk-accordion-title" href="#">Item 1  <span class="uk-label">9 ENG 1</span> </a>
-                  <div class="uk-accordion-content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  </div>
-              </li>
-              <li>
-                  <a class="uk-accordion-title" href="#">Item 2  <span class="uk-label uk-label-warning">10 ENG 1</span> </a>
-                  <div class="uk-accordion-content">
-                      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
-                  </div>
-              </li>
-              <li>
-                  <a class="uk-accordion-title" href="#">Item 1  <span class="uk-label uk-label-warning">11 ENG 1</span> </a>
-                  <div class="uk-accordion-content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  </div>
-              </li>
-              <li>
-                  <a class="uk-accordion-title" href="#">Item 2  <span class="uk-label uk-label-warning">12 ENG 1</span> </a>
-                  <div class="uk-accordion-content">
-                      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
-                  </div>
-              </li>
-            </ul>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </div>
   </body>
 </html>
-<!--  -->
+<!--
+-->
