@@ -5,6 +5,6 @@ systemFont {
 }
 
 timetableFont {
-  font-size: 1.35rem;
-  line-height: 0;
+  font-size: 15px;
+  line-height: 1;
 }
