@@ -8,3 +8,11 @@ timetableFont {
   font-size: 15px;
   line-height: 1;
 }
+
+navbarActive {
+  color: #fff;
+  text-transform: uppercase;
+  transition:.1s ease-in-out;
+  transition-property:color,
+  background-color;
+}
